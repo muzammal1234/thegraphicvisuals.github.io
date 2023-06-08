@@ -1,0 +1,87 @@
+﻿/* Styles for Submit Order page */
+
+body {
+	background-color:rgb(39, 37, 37);
+	color: black;
+	font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+	color: rgb(224, 217, 217);
+  }
+
+  form {
+	background-color: rgb(238, 233, 233);
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border-inline-start-style: inset;
+	border-right-style: groove ;
+	box-shadow: calc(30);
+
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+  }
+  
+  select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+  }
+  
+  input[type="date"],
+  input[type="file"] {
+	width: 100%;
+	padding: 8px;
+  }
+  
+  input[type="checkbox"] {
+	margin-top: 5px;
+  }
+  
+  textarea {
+	resize: vertical;
+  }
+  
+  input[type="submit"] {
+	background-color: #f00;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 30px;
+	cursor: pointer;
+	width: 200px;
+	margin: 20px auto 0;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #ff0000;
+  }
+  
+  /* Decorated images */
+  
+  img {
+	border: 4px solid #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+  }
